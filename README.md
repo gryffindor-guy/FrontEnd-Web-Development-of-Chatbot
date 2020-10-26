@@ -48,6 +48,10 @@
 
 :arrow_right: HTML, CSS and JAVASCRIPT
 
+# Inputs
+
+:arrow_right: User can type either in capital letters or small letters. using any one format is preferable
+
 # Website Images:
 
 **Welcome Page of our chatbot**
