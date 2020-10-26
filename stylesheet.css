@@ -1,10 +1,38 @@
 html, body {
   background: url('robot.svg'); 
-  background-color: #efefef; /* Used if the image is unavailable */
+  background-color: cyan; /* Used if the image is unavailable */
   background-position: relative; 
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: 100% 300%;
   height: 500px; 
+}
+.special {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+  text-align: center;
+}
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 400px;
+}
+.parallax {
+  /* The image used */
+  /* background-image: url('chatty.jpg'); */
+  background-color: lightcyan;
+  /* margin-top: 25%; */
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #center-text {          
   display: flex;
