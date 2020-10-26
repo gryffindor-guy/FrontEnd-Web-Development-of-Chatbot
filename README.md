@@ -10,11 +10,11 @@
 
 #  Main Objectives of our Chat bot
 
-:arrow_right: To provide a beautiful front end website so that we can embed our chatbot over there
+:arrow_right: To provide a beautiful front end website for our chatbot, so that we can embed our chatbot over there.
 
-:arrow_right: To make user life comfortable in an interactive environment
+:arrow_right: To make user life comfortable in an interactive environment.
 
-:arrow_right: To provide awesome features like music, shopping, stories, typing pratice
+:arrow_right: To provide awesome features like music, shopping, stories, typing pratice.
 
 # Description of tasks It can perform
 
@@ -59,4 +59,6 @@
 
 
 # YouTube link of our website demonstration
+
+[![Watch the video](https://github.com/gryffindor-guy/FrontEnd-Web-Development-of-Chatbot/blob/main/welcome.PNG)](https://youtu.be/GQDpmzUHz94)
 
