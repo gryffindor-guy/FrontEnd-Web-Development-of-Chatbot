@@ -24,14 +24,63 @@ $(function() {
     
   })
   function bot_chat(msg) {
-    var text = ["Hi", "hi", "How are you", "hello", "Is anyone there?", "Hello", "Good day"];
-    var reply = ["Hello", "Hi there!", "How are you doing", "wass up"];
+    var text = ["Hi", "hi", "How are you", "hello", "Is anyone there?", "Hello", "Good day", "hello"];
+    var good = ["good", "well", "Good", "Well", "WELL", "GOOD"];
+    var replies = ["Good to hear!", "That's cool", "That's good"]
+    var reply = ["Hello", "Hi there!", "How are you doing", "wass up", "Hey", "Hola", "Good to see you", "Hi, I hope all is well"];
     var result = msg;
-    if (text.includes(msg)) {
+    if (msg == "music" || msg == "Music" || msg == "MUSIC") {
+      var URL = "https://www.spotify.com/in/";
+      var W = window.open(URL);
+      W.window.print();
+      msg =`I Hope I helped you, please Type any commands below:  MUSIC || YOGA || SHOP || TYPING || STORY or STOP to quit`;
+      return msg;
+    }
+    else if (msg == "yoga" || msg == "Yoga" || msg == "YOGA") {
+      var URL = "https://yogainternational.com/";
+      var W = window.open(URL);
+      W.window.print();
+      msg =`I Hope I helped you, please Type any commands below:  MUSIC || YOGA || SHOP || TYPING || STORY or STOP to quit`;
+      return msg;
+    }
+    else if (msg == "shop" || msg == "SHOP" || msg == "Shop") {
+      var URL = "https://www.amazon.in/";
+      var W = window.open(URL);
+      W.window.print();
+      msg =`I Hope I helped you, please Type any commands below:  MUSIC || YOGA || SHOP || TYPING || STORY or STOP to quit`;
+      return msg;
+    }
+    else if (msg == "story" || msg == "Story" || msg == "STORY") {
+      var URL = "https://storybird.com/";
+      var W = window.open(URL);
+      W.window.print();
+      msg =`I Hope I helped you, please Type any commands below:  MUSIC || YOGA || SHOP || TYPING || STORY or STOP to quit`;
+      return msg;
+    }
+    else if (msg == "typing" || msg == "Typing" || msg == "TYPING") {
+      var URL = "https://www.typingmaster.com/";
+      var W = window.open(URL);
+      W.window.print();
+      msg =`I Hope I helped you, please Type any commands below:  MUSIC || YOGA || SHOP || TYPING || STORY or STOP to quit`;
+      return msg;
+    }
+    else if (msg == "stop" || msg == "STOP" || msg == "Stop") {
+      msg = "I hope I helped you, Bye! Take care :)";
+      return msg;
+    }
+    else if (text.includes(msg)) {
       let randomValue = reply[Math.floor(Math.random() * reply.length)];
-      return randomValue;
-    } else {
-      return "Sorry, I didn't get that";
+      msg = `${randomValue}`;
+      return msg;
+    }
+    else if (good.includes(msg)) {
+      let randomValue = replies[Math.floor(Math.random() * replies.length)];
+      msg = `${randomValue}`;
+      return msg;
+    }
+    else {
+      msg = `Sorry, I didn't get that, I Hope I would be useful to you in so many ways, I can do so many things, Don't you wanna give it a try, please Type any commands below:  MUSIC || YOGA || SHOP || TYPING || STORY or STOP to quit`;
+      return msg;
     }
   }
   function generate_message(msg, type) {
