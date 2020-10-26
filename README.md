@@ -1,49 +1,61 @@
-# Contributors for our project
+# Version History
 
-**Janardhan Naidu (Faculty sir)**------------**Lohit (19pa1a0565)**------------------**Hema Sankara Sai Ganesh babu (19pa1a05b3)**
+:arrow_right: 0.0.2 (Chatbot with Front End Development)
+
+# Contributors of our project
+
+**Hema Sankara Sai Ganesh babu (19pa1a05b3)**------------------**Lohit (19pa1a0565)**
+
+**Janardhan Naidu (Faculty sir)**
 
 #  Main Objectives of our Chat bot
 
-* To provide a beautiful front end website so that we can embed our chatbot over there
+:arrow_right: To provide a beautiful front end website so that we can embed our chatbot over there
 
-* To make user life comfortable in an interactive environment
+:arrow_right: To make user life comfortable in an interactive environment
 
-* To provide awesome features like music, shopping, stories, typing pratice
+:arrow_right: To provide awesome features like music, shopping, stories, typing pratice
 
 # Description of tasks It can perform
 
 ## Friendly interactive
 
-* It is friendly reactive bot , it reply to the question user asked.
+:arrow_right: It is friendly reactive bot , it reply to the question user asked.
 
-* If user asked a invalid question ,then it reply the available options the bot have.
+:arrow_right: If user asked a invalid question ,then it reply the available options the bot have.
 
 ## Music
 
-* If we enter music, then it redirects to an awesome music websites which consists of all types music.
+:arrow_right: If we enter music, then it redirects to an awesome music websites which consists of all types music.
 
 
 ## Shopping
 
-* If we enter Shopping, then it redirects to an amazing and most reliable online shopping websites,where we can do our shopping based upon user choice.
+:arrow_right: If we enter Shopping, then it redirects to an amazing and most reliable online shopping websites,where we can do our shopping based upon user choice.
 
 ## Stories
 
-* If we enter Stories, then it redirects to an very interesting and informative stories website, It contains wide range of stories are available to read.
+:arrow_right: If we enter Stories, then it redirects to an very interesting and informative stories website, It contains wide range of stories are available to read.
 
 ## Typing pratice
 
-* If we enter Typing, then it redirects to a website called typing master, where we can pratice and improve our typing skills.
+:arrow_right: If we enter Typing, then it redirects to a website called typing master, where we can pratice and improve our typing skills.
 
 # Website Images:
 
 **Welcome Page of our chatbot**
 
-![Welcome image 1](welcome.png)
+![Welcome image 1](https://github.com/gryffindor-guy/FrontEnd-Web-Development-of-Chatbot/blob/main/welcome.PNG)
 
-# REPL link of our Website
+![Welcome image 2](https://github.com/gryffindor-guy/FrontEnd-Web-Development-of-Chatbot/blob/main/welcome2.PNG)
 
-**Website Link:** [Click Here to visit Website](https://gryffindor-guy.github.io/FrontEnd-Web-Development-of-Chatbot/ "Website link")
+![Chat Box Image](https://github.com/gryffindor-guy/FrontEnd-Web-Development-of-Chatbot/blob/main/chatbox.PNG)
+
+![Features](https://github.com/gryffindor-guy/FrontEnd-Web-Development-of-Chatbot/blob/main/features.PNG)
+
+# Link to our Website
+
+:arrow_right: **Website Link:** [Click Here to visit Website](https://gryffindor-guy.github.io/FrontEnd-Web-Development-of-Chatbot/ "Website link")
 
 
 # YouTube link of our website demonstration
