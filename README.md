@@ -18,18 +18,21 @@
 
 # Description of tasks It can perform
 
-## Friendly interactive
+## Interactive chatbot
 
-:arrow_right: It is friendly reactive bot , it reply to the question user asked.
+:arrow_right: It is friendly interactive bot , it replies to the question user asked.
 
-:arrow_right: If user asked a invalid question ,then it reply the available options the bot have.
+:arrow_right: If user types any wrong input then bot asks user again for the input by providing options.
 
-## Music
+## Music :musical_score:
 
 :arrow_right: If we enter music, then it redirects to an awesome music websites which consists of all types music.
 
+## Yoga 
 
-## Shopping
+:arrow_right: You can take yoga classes from this bot, this bot can redirect you to the best yoga classes place.
+
+## Shopping :handbag:
 
 :arrow_right: If we enter Shopping, then it redirects to an amazing and most reliable online shopping websites,where we can do our shopping based upon user choice.
 
@@ -37,9 +40,13 @@
 
 :arrow_right: If we enter Stories, then it redirects to an very interesting and informative stories website, It contains wide range of stories are available to read.
 
-## Typing pratice
+## Typing pratice :computer:
 
 :arrow_right: If we enter Typing, then it redirects to a website called typing master, where we can pratice and improve our typing skills.
+
+# Languages Used 
+
+:arrow_right: HTML, CSS and JAVASCRIPT
 
 # Website Images:
 
