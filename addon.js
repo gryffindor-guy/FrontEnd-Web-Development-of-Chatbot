@@ -71,12 +71,12 @@ $(function() {
     else if (text.includes(msg)) {
       let randomValue = reply[Math.floor(Math.random() * reply.length)];
       msg = `${randomValue}`;
-      return msg;
+      return `${msg} I Hope I would be useful to you in so many ways, I can do so many things, Don't you wanna give it a try, please Type any commands below:  MUSIC || YOGA || SHOP || TYPING || STORY or STOP to quit`;
     }
     else if (good.includes(msg)) {
       let randomValue = replies[Math.floor(Math.random() * replies.length)];
       msg = `${randomValue}`;
-      return msg;
+      return `${msg} I Hope I would be useful to you in so many ways, I can do so many things, Don't you wanna give it a try, please Type any commands below:  MUSIC || YOGA || SHOP || TYPING || STORY or STOP to quit`;
     }
     else {
       msg = `Sorry, I didn't get that, I Hope I would be useful to you in so many ways, I can do so many things, Don't you wanna give it a try, please Type any commands below:  MUSIC || YOGA || SHOP || TYPING || STORY or STOP to quit`;
