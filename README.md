@@ -1,10 +1,6 @@
 # Contributors for our project
 
-* Ganesh(19pa1a05b3)
-
-* Lohit (19pa1a0565)
-
-* Janardhan 
+**Janardhan Naidu (Faculty sir)**------------**Lohit (19pa1a0565)**------------------**Hema Sankara Sai Ganesh babu (19pa1a05b3)**
 
 #  Main Objectives of our Chat bot
 
