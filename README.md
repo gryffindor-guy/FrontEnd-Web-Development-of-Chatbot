@@ -37,6 +37,9 @@
 
 # Website Images:
 
+**Welcome Page of our chatbot**
+
+![Welcome image 1](welcome.png)
 
 # REPL link of our Website
 
