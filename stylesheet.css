@@ -21,7 +21,7 @@ html, body {
 }
 .parallax {
   /* The image used */
-  /* background-image: url('chatty.jpg'); */
+  background-image: url('chatty.jpg');
   background-color: lightcyan;
   /* margin-top: 25%; */
 
